@@ -137,7 +137,6 @@ Variants:
 
 Each arriving door is labeled with one of four variants (L-Base, L-Premium, R-Base, R-Premium).
 
-Probabilities match the baseline mix (30%, 20%, 25%, 25%).
 
 Processing Times:
 
@@ -145,9 +144,9 @@ Each Processor calculates time based on door variant.
 
 Example (Window Regulator):
 
-Base: 2.2 min
+Base time from table
 
-Premium: 2.5 min
+Premium time from table
 
 Rework Logic:
 
@@ -157,21 +156,21 @@ Example: with
 𝑟
 𝑖
 =
-0.08
+values of ri from the table
 r
 i
 	​
 
-=0.08 and 
+
 𝛾
 𝑖
 =
-0.5
+values from the table 
 γ
 i
 	​
 
-=0.5, the process time becomes:
+, the process time becomes:
 
 𝑝
 =
@@ -221,59 +220,7 @@ i
 
 )
 
-Demand / Takt Time:
 
-Source arrival rate is set to 
-𝜏
-𝑡
-=
-𝐴
-𝑡
-/
-𝑑
-𝑡
-τ
-t
-	​
-
-=A
-t
-	​
-
-/d
-t
-	​
-
-.
-
-Example: 
-𝐴
-𝑡
-=
-480
-A
-t
-	​
-
-=480 min, 
-𝑑
-𝑡
-=
-240
-d
-t
-	​
-
-=240 doors → 
-𝜏
-𝑡
-=
-2
-τ
-t
-	​
-
-=2 min.
 
 Availability & Setup Losses:
 
