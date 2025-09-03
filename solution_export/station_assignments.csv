@@ -1,0 +1,7 @@
+Station,Open,Workers,Assigned_Tasks,Workload,Status
+1,True,3,"2,4",4.454,HEAVY_LOADED
+2,True,3,"1,3,5",4.241,HEAVY_LOADED
+3,True,3,"6,7,8",4.105,MEDIUM_LOADED
+4,True,2,"9,10",3.247,LIGHT_LOADED
+5,False,0,,0.0,CLOSED
+6,True,2,"11,12,13",3.224,LIGHT_LOADED

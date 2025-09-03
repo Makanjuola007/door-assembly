@@ -1,0 +1,155 @@
+{
+  "metadata": {
+    "export_time": "2025-09-03T15:42:26.639901",
+    "optimization_status": "OPTIMAL",
+    "objective_value": 1799.9591,
+    "optimization_time_seconds": 1.85,
+    "gap_percent": 0.0
+  },
+  "station_configuration": {
+    "1": {
+      "open": true,
+      "workers": 3,
+      "assigned_tasks": [
+        2,
+        4
+      ],
+      "workload_min_per_door": 4.454,
+      "workload_deviation": 1.242,
+      "status": "HEAVY_LOADED"
+    },
+    "2": {
+      "open": true,
+      "workers": 3,
+      "assigned_tasks": [
+        1,
+        3,
+        5
+      ],
+      "workload_min_per_door": 4.241,
+      "workload_deviation": 1.029,
+      "status": "HEAVY_LOADED"
+    },
+    "3": {
+      "open": true,
+      "workers": 3,
+      "assigned_tasks": [
+        6,
+        7,
+        8
+      ],
+      "workload_min_per_door": 4.105,
+      "workload_deviation": 0.893,
+      "status": "MEDIUM_LOADED"
+    },
+    "4": {
+      "open": true,
+      "workers": 2,
+      "assigned_tasks": [
+        9,
+        10
+      ],
+      "workload_min_per_door": 3.247,
+      "workload_deviation": 0.035,
+      "status": "LIGHT_LOADED"
+    },
+    "5": {
+      "open": false,
+      "workers": 0,
+      "assigned_tasks": [],
+      "workload_min_per_door": 0.0,
+      "workload_deviation": 0.0,
+      "status": "CLOSED"
+    },
+    "6": {
+      "open": true,
+      "workers": 2,
+      "assigned_tasks": [
+        11,
+        12,
+        13
+      ],
+      "workload_min_per_door": 3.224,
+      "workload_deviation": 0.012,
+      "status": "LIGHT_LOADED"
+    }
+  },
+  "task_to_station_mapping": {
+    "1": 2,
+    "2": 1,
+    "3": 2,
+    "4": 1,
+    "5": 2,
+    "6": 3,
+    "7": 3,
+    "8": 3,
+    "9": 4,
+    "10": 4,
+    "11": 6,
+    "12": 6,
+    "13": 6
+  },
+  "performance_metrics": {
+    "total_workers": 13,
+    "stations_open": 5,
+    "stations_closed": 1,
+    "mean_workload": 3.212,
+    "workload_cv": 0.1611,
+    "balance_loss": 0.1347,
+    "line_efficiency": 0.8653,
+    "expected_overtime_min_per_door": 6.9761,
+    "expected_shortage_min_per_door": 0.0006,
+    "service_level": {
+      "period_1": 0.95,
+      "period_2": 1.0,
+      "target": 0.95
+    },
+    "bottleneck_analysis": {
+      "primary_bottleneck": {
+        "station": 4,
+        "frequency": 0.575,
+        "tasks": [
+          9,
+          10
+        ]
+      },
+      "secondary_bottleneck": {
+        "station": 6,
+        "frequency": 0.425,
+        "tasks": [
+          11,
+          12,
+          13
+        ]
+      }
+    },
+    "rework_analysis": {
+      "highest_rework_station": 6,
+      "rework_percentage": 1.35,
+      "stations_by_rework": {
+        "station_6": 1.35,
+        "station_1": 1.11,
+        "station_3": 0.85
+      }
+    }
+  },
+  "implementation_recommendations": {
+    "immediate": [
+      "Close Station 5 - not needed in optimal configuration",
+      "Assign 3 workers each to Stations 1, 2, 3",
+      "Assign 2 workers each to Stations 4, 6"
+    ],
+    "balance_improvements": [
+      "Consider redistributing tasks from Stations 1-2 to Stations 4,6",
+      "Station 1 and 2 are 38% above average workload"
+    ],
+    "bottleneck_mitigation": [
+      "Station 4 (painting) is primary bottleneck - consider process improvements",
+      "Station 6 (final assembly) is secondary bottleneck - monitor capacity"
+    ],
+    "quality_focus": [
+      "Station 6 has highest rework rate (1.35%) - focus quality improvements",
+      "Station 1 has second highest rework rate (1.11%)"
+    ]
+  }
+}
