@@ -44,19 +44,19 @@ def create_door_assembly_data(n_stations: int = 13, n_scenarios: int = 20, seed:
     # Real task times from document (min/door)
     task_data = {
         # i: (task_name, base_time, premium_time, rework_prob, rework_overhead)
-        1: ("Window regulator install", 1.8, 2.0, 0.030, 0.30),
-        2: ("Latch/lock module", 1.5, 1.7, 0.025, 0.25),
-        3: ("Handles & linkages", 1.2, 1.5, 0.020, 0.20),
-        4: ("Wiring harness", 2.5, 3.2, 0.040, 0.35),
-        5: ("Speaker module", 0.9, 1.1, 0.018, 0.20),
-        6: ("Window glass insert", 1.7, 1.9, 0.035, 0.35),
-        7: ("Regulator–glass tie", 0.8, 0.9, 0.025, 0.25),
-        8: ("Vapor barrier", 1.3, 1.6, 0.022, 0.25),
-        9: ("Weatherstrip / seals", 1.0, 1.1, 0.015, 0.15),
-        10: ("Trim panel & clips", 2.0, 2.4, 0.030, 0.30),
-        11: ("Switch & connections", 0.8, 0.9, 0.015, 0.20),
-        12: ("Torque audits", 0.7, 0.7, 0.010, 0.10),
-        13: ("End-of-line functional test", 1.5, 1.8, 0.050, 0.50)
+        1: ("Window regulator install", 1.8, 2.0, 0.30, 0.30), #
+        2: ("Latch/lock module", 1.5, 1.7, 0.25, 0.25), #
+        3: ("Handles & linkages", 1.2, 1.5, 0.20, 0.20),#
+        4: ("Wiring harness", 2.5, 3.2, 0.40, 0.35),#
+        5: ("Speaker module", 0.9, 1.1, 0.18, 0.20),#
+        6: ("Window glass insert", 1.7, 1.9, 0.35, 0.35),#
+        7: ("Regulator–glass tie", 0.8, 0.9, 0.25, 0.25),#
+        8: ("Vapor barrier", 1.3, 1.6, 0.22, 0.25),#
+        9: ("Weatherstrip / seals", 1.0, 1.1, 0.15, 0.15),#
+        10: ("Trim panel & clips", 2.0, 2.4, 0.30, 0.30),#
+        11: ("Switch & connections", 0.8, 0.9, 0.15, 0.20),#
+        12: ("Torque audits", 0.7, 0.7, 0.10, 0.10),#
+        13: ("End-of-line functional test", 1.5, 1.8, 0.50, 0.50)#
     }
 
     # Extract times and rework data
