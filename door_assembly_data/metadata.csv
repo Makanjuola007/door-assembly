@@ -1,0 +1,7 @@
+parameter,value
+export_timestamp,2025-09-07T13:43:55.814138
+n_stations,6
+n_scenarios,20
+seed,7
+description,Door Assembly Line Balancing Data Export
+data_source,standalone

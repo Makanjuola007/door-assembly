@@ -1,0 +1,16 @@
+category,statistic,value
+tasks,count,18.0
+tasks,base_time_mean,5.15075987754177
+tasks,base_time_std,1.7139493632783156
+tasks,premium_time_mean,6.167002884598893
+tasks,rework_prob_mean,0.0451040857007739
+demand,scenarios,20.0
+demand,periods,2.0
+demand,demand_mean,104.6
+demand,demand_std,23.383541220268583
+demand,takt_mean,4.825539329882176
+demand,takt_std,1.082113189988043
+availability,mean,0.9440770950998475
+availability,std,0.027072186475012017
+availability,min,0.9000166427126945
+availability,max,0.989409084141772

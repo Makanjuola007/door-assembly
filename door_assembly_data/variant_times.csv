@@ -1,0 +1,55 @@
+variant,task_id,task_name,processing_time_min_per_door,baseline_share
+1,1,Mount Door Frame,2.457849736243743,0.6
+1,2,Install Hinges,7.8679370719796164,0.6
+1,3,Mount Door Panel,3.610633880611227,0.6
+1,4,Install Lock Mechanism,4.28564679889123,0.6
+1,5,Install Window Glass,3.280312121479493,0.6
+1,6,Mount Window Regulator,5.603293504784736,0.6
+1,7,Install Door Handle,7.454770249320387,0.6
+1,8,Connect Electrical Harness,6.014079445303483,0.6
+1,9,Install Weather Strips,4.234308136310354,0.6
+1,10,Mount Interior Trim,6.611885039117055,0.6
+1,11,Install Speaker,4.717057595278402,0.6
+1,12,Mount Armrest,4.754557867348589,0.6
+1,13,Install Door Light,3.0827097152160894,0.6
+1,14,Mount Mirror,5.806279211803033,0.6
+1,15,Install Window Switch,2.5535740750805127,0.6
+1,16,Quality Check,7.732809938017556,0.6
+1,17,Final Assembly,5.555568123940238,0.6
+1,18,Test Operations,7.090405285026132,0.6
+2,1,Mount Door Frame,3.087019349427898,0.3
+2,2,Install Hinges,9.502101103559616,0.3
+2,3,Mount Door Panel,4.3326758074334375,0.3
+2,4,Install Lock Mechanism,4.7707274575899286,0.3
+2,5,Install Window Glass,3.904964876099818,0.3
+2,6,Mount Window Regulator,7.228393746937639,0.3
+2,7,Install Door Handle,8.398796798725336,0.3
+2,8,Connect Electrical Harness,7.178107961688674,0.3
+2,9,Install Weather Strips,5.062031668795798,0.3
+2,10,Mount Interior Trim,7.68829288475372,0.3
+2,11,Install Speaker,5.521767211215636,0.3
+2,12,Mount Armrest,5.914027287253245,0.3
+2,13,Install Door Light,3.8479115566696422,0.3
+2,14,Mount Mirror,6.994135013934092,0.3
+2,15,Install Window Switch,3.1712297091533963,0.3
+2,16,Quality Check,9.562259539804133,0.3
+2,17,Final Assembly,6.372370424303745,0.3
+2,18,Test Operations,8.469239525434336,0.3
+3,1,Mount Door Frame,2.457849736243743,0.1
+3,2,Install Hinges,7.8679370719796164,0.1
+3,3,Mount Door Panel,3.610633880611227,0.1
+3,4,Install Lock Mechanism,5.142776158669476,0.1
+3,5,Install Window Glass,3.280312121479493,0.1
+3,6,Mount Window Regulator,5.603293504784736,0.1
+3,7,Install Door Handle,7.454770249320387,0.1
+3,8,Connect Electrical Harness,7.216895334364179,0.1
+3,9,Install Weather Strips,4.234308136310354,0.1
+3,10,Mount Interior Trim,6.611885039117055,0.1
+3,11,Install Speaker,5.660469114334083,0.1
+3,12,Mount Armrest,4.754557867348589,0.1
+3,13,Install Door Light,3.699251658259307,0.1
+3,14,Mount Mirror,5.806279211803033,0.1
+3,15,Install Window Switch,3.064288890096615,0.1
+3,16,Quality Check,7.732809938017556,0.1
+3,17,Final Assembly,5.555568123940238,0.1
+3,18,Test Operations,7.090405285026132,0.1

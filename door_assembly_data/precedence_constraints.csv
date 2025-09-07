@@ -1,0 +1,19 @@
+predecessor_id,predecessor_name,successor_id,successor_name,precedence_type
+1,Mount Door Frame,2,Install Hinges,must_precede
+1,Mount Door Frame,3,Mount Door Panel,must_precede
+2,Install Hinges,4,Install Lock Mechanism,must_precede
+3,Mount Door Panel,5,Install Window Glass,must_precede
+4,Install Lock Mechanism,7,Install Door Handle,must_precede
+5,Install Window Glass,6,Mount Window Regulator,must_precede
+6,Mount Window Regulator,9,Install Weather Strips,must_precede
+7,Install Door Handle,10,Mount Interior Trim,must_precede
+8,Connect Electrical Harness,11,Install Speaker,must_precede
+9,Install Weather Strips,12,Mount Armrest,must_precede
+10,Mount Interior Trim,13,Install Door Light,must_precede
+11,Install Speaker,14,Mount Mirror,must_precede
+12,Mount Armrest,15,Install Window Switch,must_precede
+13,Install Door Light,16,Quality Check,must_precede
+14,Mount Mirror,16,Quality Check,must_precede
+15,Install Window Switch,17,Final Assembly,must_precede
+16,Quality Check,17,Final Assembly,must_precede
+17,Final Assembly,18,Test Operations,must_precede

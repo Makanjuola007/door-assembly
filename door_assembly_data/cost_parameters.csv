@@ -1,0 +1,6 @@
+cost_type,cost_value,units
+station_opening,1000,currency_per_station
+worker,500,currency_per_worker
+overtime,10,currency_per_min_per_door
+shortage,50,currency_per_min_per_door
+workload_balance,5,currency_per_min_per_door
